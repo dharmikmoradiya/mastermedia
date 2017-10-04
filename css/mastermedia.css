@@ -1,0 +1,75 @@
+/*Reseting css and align center*/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+html,body{height: 100%;width: 100%;}
+
+
+
+
+/*index for media Query*/
+
+/*
+1. 
+
+
+*/
+
+
+
+
+/*Media Query Based on Width*/
+@media screen and (min-width: 320px){
+    body{background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);}
+}
+
+/*tablet and bigsize smart phones*/
+@media(min-width: 768px){
+    body{background-image: linear-gradient(45deg, #a18cd1 0%, #fbc2eb 100%);}
+}
+
+/*pamtops and other old computers*/
+@media(min-width: 1024px){
+    body{background-image: linear-gradient(45deg, #fad0c4 0%, #ffd1ff 100%);}
+}
+
+/*medium size desktop and leptops*/
+@media(min-width: 1440px){
+    body{background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);}
+}
+
+/*big size desktop and hardware*/
+@media(min-width: 1640px){
+    body{background-image: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);}
+}
+
+/*HD Devices*/
+@media(min-width: 2024px){
+    body{background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);}
+}
+
+
+/*Media Query Based on Height*/
+@media(min-height: 320px)
+{
+    body center-align{background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);}
+}
+
+@media(min-height: 768px){
+    body{background-image: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);}
+}
+
+@media(min-height: 900px){
+   body{background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);}
+}
+
+@media(min-height: 1200px){
+    body{background-image: linear-gradient(45deg, #fad0c4 0%, #ffd1ff 100%);}
+}
+@media (min-height: 1400px){
+   
+}
+@media (min-height: 1580px){
+   
+}
+@media(min-height: 2000px){
+   
+}
